@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 22px;;
+}
+
+#container{
+  display:grid;
+  border: 1px solid rgb(222, 215, 215);
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: calc(50.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+#container .columna2{
+  padding: 9px;
+  background-color:#e02a12;
+  border-radius: 5px;
+}
+
+#container .columna1{
+  padding: 9px;
+  background-color:#596ac3;
+  border-radius: 5px;
+}
+
+header{
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+a:hover{
+  color:rgb(0, 255, 247);
+}
+
+li:hover{
+  color:rgb(24, 220, 80);
+}
+
