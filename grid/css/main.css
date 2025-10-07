@@ -14,7 +14,7 @@ body{
   display:grid;
   border: 1px solid rgb(222, 215, 215);
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: calc(50.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
+  grid-template-rows: calc(55.33vh - 10px) calc(33.33vh - 10px) calc(33.33vh - 10px);
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -57,3 +57,6 @@ li:hover{
   color:rgb(24, 220, 80);
 }
 
+body {
+  background-color: lightblue;
+}
